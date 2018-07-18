@@ -19,7 +19,7 @@ app.use(router((_) => {
     // eslint-disable-next-line no-unused-vars
     _.get('/', async (ctx, next) => {
         ctx.body = await ctx.render('index.html', {
-            title: '陈旭峰牛逼',
+            title: '陈旭峰牛逼2',
         });
     });
     // eslint-disable-next-line no-unused-vars
